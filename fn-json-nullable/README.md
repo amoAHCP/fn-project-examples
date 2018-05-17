@@ -40,8 +40,9 @@ public class HelloFunction {
 ```
 
 While this is fine in most cases, I see two issues with this solution:
-1.) If you dont provide an Input to you function, you'll get an Exception
-2.) You need to yous Jackson
+
+1. If you dont provide an Input to you function, you'll get an Exception
+2. You need to use Jackson
 
 ## alternate solution
 With the solution in this example you can control the input (dealing with null values and other inputs ), as well as using othe Json parsers than Jackson. The solution is to use an InputBinding:
