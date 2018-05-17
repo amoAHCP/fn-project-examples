@@ -1,7 +1,7 @@
-name: amoahcp/fn-json-nullable
+name: amoahcp/kubernetestest
 version: 0.0.2
 runtime: java
-cmd: ch.trivadis.com.fn.SimpleJsonFunction::handleRequest
+cmd: ch.trivadis.com.fn.HelloFunction::handleRequest
 build_image: fnproject/fn-java-fdk-build:jdk9-1.0.59
 run_image: fnproject/fn-java-fdk:jdk9-1.0.59
 format: http

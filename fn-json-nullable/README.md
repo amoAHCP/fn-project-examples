@@ -98,3 +98,9 @@ public final static ObjectMapper objectMapper = new ObjectMapper();
   }
 }
 ```
+
+### how to run
+
+1. build the project: fn build
+2. deploy the app (start fn with "fn start"): fn deploy --app jsonnullable
+3. test: curl --data '{"name": "Bob"}' http://localhost:8080/r/jsonnullable/fn-json-nullable
